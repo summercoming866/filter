@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			img{
+				width:400px;
+				height:auto;
+				display: block;
+				margin: 0 auto;
+				transition: all 3s;
+				
+			}
+			img:hover{
+				-webkit-filter: none;
+				
+			}
+			.img1{
+				/* 灰度 1高 */
+				-webkit-filter: grayscale(1);
+			}
+			.img2{
+				/* 亮度1正常 */
+				-webkit-filter: brightness(0);
+			}
+			.img3{
+				/* 棕色全1 */
+				-webkit-filter: sepia(1);
+			}
+			.img4{
+				/* 模糊度 */
+				-webkit-filter: blur(10px);
+			}
+			.img5{
+				/* 对比度 1正常 */
+				-webkit-filter: contrast(2);
+			}
+			.img6{
+				/* 饱和度 */
+				-webkit-filter: saturate(5);
+			}
+			.img7{
+				/* 胶片底色 */
+				-webkit-filter: invert(1);
+			}
+			.img8{
+				/* 色相旋转 */
+				-webkit-filter: hue-rotate(90deg);
+			}
+			.img9{
+				-webkit-filter: brightness(10) grayscale(1);
+				transition: all 10s;
+			}
+			.img9:hover{
+				-webkit-filter: brightness(1) grayscale(1);
+			}
+		</style>
+	</head>
+	<body>
+		<img class ="img1" src=img/lyx.jpg>
+		<img class ="img2" src=img/lyx.jpg>
+		<img class ="img3" src=img/lyx.jpg>
+		<img class ="img4" src=img/lyx.jpg>
+		<img class ="img5" src=img/lyx.jpg>
+		<img class ="img6" src=img/lyx.jpg>
+		<img class ="img7" src=img/lyx.jpg>
+		<img class ="img8" src=img/lyx.jpg>
+		<img class ="img9" src=img/lyx.jpg>
+	</body>
+</html>
